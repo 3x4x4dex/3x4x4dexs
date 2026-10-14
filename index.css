@@ -1,0 +1,236 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container1 {
+  display: contents;
+}
+ 
+.navigation-thq-navigation-link-elm2 {
+  text-decoration: none;
+}
+ 
+.navigation-link11 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-navigation-link-elm4 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-navigation-link-elm5 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-btn-elm1 {
+  text-decoration: none;
+}
+ 
+.navigation-container2 {
+  display: none;
+}
+ 
+.navigation-container3 {
+  display: contents;
+}
+ 
+.navigation-container4 {
+  display: none;
+}
+ 
+.navigation-container5 {
+  display: contents;
+}
+
+.leadership-wrapper {
+  display: contents;
+}
+ 
+.leadership-container1 {
+  display: contents;
+}
+ 
+.leadership-container2 {
+  display: none;
+}
+ 
+.leadership-container3 {
+  display: contents;
+}
+
+.executive-summary-wrapper {
+  display: contents;
+}
+ 
+.executive-summary-container1 {
+  display: contents;
+}
+ 
+.executive-summary-container2 {
+  display: none;
+}
+ 
+.executive-summary-container3 {
+  display: contents;
+}
+
+.tokenomics-roadmap-wrapper {
+  display: contents;
+}
+ 
+.tokenomics-roadmap-container1 {
+  display: contents;
+}
+ 
+.tokenomics-roadmap-thq-legend-indicator-elm1 {
+  background: var(--color-accent);
+}
+ 
+.tokenomics-roadmap-thq-legend-indicator-elm2 {
+  background: var(--color-secondary);
+}
+ 
+.tokenomics-roadmap-thq-legend-indicator-elm3 {
+  background: var(--color-primary);
+}
+ 
+.tokenomics-roadmap-thq-legend-indicator-elm4 {
+  background: var(--color-outline);
+}
+ 
+.tokenomics-roadmap-thq-legend-indicator-elm5 {
+  background: var(--color-neutral);
+}
+ 
+.tokenomics-roadmap-container2 {
+  display: none;
+}
+ 
+.tokenomics-roadmap-container3 {
+  display: contents;
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container1 {
+  display: contents;
+}
+ 
+.footer-thq-footer-social-link-elm1 {
+  text-decoration: none;
+}
+ 
+.footer-thq-footer-social-link-elm2 {
+  text-decoration: none;
+}
+ 
+.footer-thq-footer-social-link-elm3 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.footer-thq-footer-social-link-elm4 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.footer-thq-footer-nav-link-elm10 {
+  text-decoration: none;
+}
+ 
+.footer-thq-footer-nav-link-elm15 {
+  text-decoration: none;
+}
+ 
+.footer-container2 {
+  display: none;
+}
+ 
+.footer-container3 {
+  display: contents;
+}
+
+.home-container10 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.home-container11 {
+  display: none;
+}
+ 
+.home-container12 {
+  display: contents;
+}
+ 
+.home-component1 {
+  text-decoration: none;
+}
+ 
+.home-container14 {
+  display: contents;
+}
+ 
+.home-thq-btn-elm4 {
+  text-decoration: none;
+}
+ 
+.home-thq-btn-elm5 {
+  text-decoration: none;
+}
+ 
+.home-thq-cta-floating-img-elm {
+  top: 38px;
+  right: 144px;
+  width: 202px;
+  height: 132px;
+}
+ 
+.home-container15 {
+  display: none;
+}
+ 
+.home-container16 {
+  display: contents;
+}
+ 
+.home-container17 {
+  display: none;
+}
+ 
+.home-container18 {
+  display: contents;
+}
+ 
+.home-container19 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.home-icon36 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.home-text27 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}

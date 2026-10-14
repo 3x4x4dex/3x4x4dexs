@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cuddly Any Skunk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Poppins;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0.02em;
+        line-height: 1.6;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="../style.css" />
+    <div>
+      <link href="./footer.css" rel="stylesheet" />
+      <div class="footer-container1">
+        <footer class="footer-root">
+          <div class="footer-glow-container">
+            <div class="footer-glow-orb-1 footer-glow-orb"></div>
+            <div class="footer-glow-orb footer-glow-orb-2"></div>
+          </div>
+          <div class="footer-container">
+            <div class="footer-top-grid">
+              <div class="footer-brand-column">
+                <a href="index.html">
+                  <div class="footer-logo-link">
+                    <div class="footer-logo-icon">
+                      <svg
+                        fill="none"
+                        width="32"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="32"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <rect
+                          x="3"
+                          y="3"
+                          rx="2"
+                          ry="2"
+                          width="18"
+                          height="18"
+                        ></rect>
+                        <path d="m15 9l-6 6m0-6l6 6"></path>
+                      </svg>
+                    </div>
+                    <span class="footer-logo-text">3x4x4 DEX</span>
+                  </div>
+                </a>
+                <p class="footer-brand-description">
+                  Empowering the future of decentralized finance with strategic
+                  liquidity, P2P rewards, and sustainable wealth preservation.
+                </p>
+                <div class="footer-social-group">
+                  <a
+                    href="https://x.com/3x4x4Dex"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <div
+                      aria-label="X (Twitter)"
+                      class="footer-thq-footer-social-link-elm1 footer-social-link"
+                    >
+                      <svg
+                        fill="none"
+                        width="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="20"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </a>
+                  <a
+                    href="https://t.me/token3x4x4"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <div
+                      aria-label="Telegram"
+                      class="footer-thq-footer-social-link-elm2 footer-social-link"
+                    >
+                      <svg
+                        fill="none"
+                        width="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="20"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="m22 2-7 20-4-9-9-4Z"></path>
+                        <path d="M22 2 11 13"></path>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div
+                      aria-label="Discord"
+                      class="footer-thq-footer-social-link-elm3 footer-social-link"
+                    ></div>
+                  </a>
+                  <a href="#">
+                    <div
+                      aria-label="GitHub"
+                      class="footer-thq-footer-social-link-elm4 footer-social-link"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+              <nav
+                aria-labelledby="footer-heading-platform"
+                class="footer-nav-column"
+              >
+                <h3 id="footer-heading-platform" class="footer-nav-title">
+                  Platform
+                </h3>
+                <ul class="footer-nav-list">
+                  <li>
+                    <a
+                      href="https://3x4x4-swap.dexkit.app/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div
+                        class="footer-thq-footer-nav-link-elm10 footer-nav-link"
+                      >
+                        <span>Swap Exchange</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="footer-nav-link">
+                        <span>Liquidity Pools</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="footer-nav-link">
+                        <span>Staking Dashboard</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="footer-nav-link">
+                        <span>P2P Rewards</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="footer-nav-link"><span>Governance</span></div>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <nav
+                aria-labelledby="footer-heading-resources"
+                class="footer-nav-column"
+              >
+                <h3 id="footer-heading-resources" class="footer-nav-title">
+                  Resources
+                </h3>
+                <ul class="footer-nav-list">
+                  <li>
+                    <a
+                      href="https://drive.google.com/file/d/1IXPtrROExrLOqgTCtH5KtFuW8ySVVYgo/view?usp=drive_link"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div
+                        class="footer-thq-footer-nav-link-elm15 footer-nav-link"
+                      >
+                        <span>Whitepaper</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="footer-nav-link">
+                        <span>Security Audit</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="footer-nav-link"><span>Tokenomics</span></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="footer-nav-link">
+                        <span>API Documentation</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="footer-nav-link">
+                        <span>Brand Assets</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="footer-newsletter-column">
+                <h3 class="footer-nav-title">Stay Updated</h3>
+                <p class="footer-newsletter-text">
+                  Join our newsletter to receive the latest updates on 3x4x4 DEX
+                  ecosystem.
+                </p>
+                <form
+                  action="/subscribe"
+                  method="POST"
+                  data-form-id="f140827f-de64-4e03-be94-1d57a78c7657"
+                  class="footer-newsletter-form"
+                >
+                  <div class="footer-input-wrapper">
+                    <input
+                      type="email"
+                      id="thq_textinput_GvKC"
+                      name="textinput"
+                      required="true"
+                      aria-label="Email address"
+                      placeholder="Your email address"
+                      data-form-field-id="thq_textinput_GvKC"
+                      class="footer-email-input"
+                    />
+                    <button
+                      id="thq_button__dGh"
+                      name="button"
+                      type="submit"
+                      data-form-field-id="thq_button__dGh"
+                      class="btn-sm btn btn-accent footer-submit-btn"
+                    >
+                      <span>Subscribe</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="footer-stats-bar">
+              <div class="footer-stat-item">
+                <span class="footer-stat-label">Staking APY</span>
+                <span class="footer-stat-value">18.5%</span>
+              </div>
+              <div class="footer-stat-item">
+                <span class="footer-stat-label">Total Liquidity</span>
+                <span class="footer-stat-value">$1.250 USD</span>
+              </div>
+              <div class="footer-stat-item">
+                <span class="footer-stat-label">Active Users</span>
+                <span class="footer-stat-value">550+</span>
+              </div>
+            </div>
+            <div class="footer-bottom-bar">
+              <div class="footer-copyright">
+                <span>
+                  &amp;copy; 2026 3x4x4 DEX. Built for the Decentralized Future.
+                </span>
+              </div>
+              <div class="footer-legal-links">
+                <a href="#">
+                  <div class="footer-legal-link">
+                    <span>Privacy Policy</span>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="footer-legal-link">
+                    <span>Terms of Service</span>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="footer-legal-link">
+                    <span>Cookie Policy</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="footer-container2">
+          <div class="footer-container3">
+            <script defer="" data-name="footer-interactivity">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  const footerNewsletterForm = document.querySelector(".footer-newsletter-form")
+                  const footerEmailInput = document.querySelector(".footer-email-input")
+                  const footerInputWrapper = document.querySelector(".footer-input-wrapper")
+
+                  if (footerNewsletterForm) {
+                    footerNewsletterForm.addEventListener("submit", (e) => {
+                      const email = footerEmailInput.value
+                      if (email) {
+                        const originalContent = footerNewsletterForm.innerHTML
+                        footerNewsletterForm.innerHTML = `
+                          <div style="color: var(--color-accent); font-weight: 600; padding: var(--spacing-sm) 0;">
+                            Welcome to the future, explorer! 🚀
+                          </div>
+                        `
+                        setTimeout(() => {
+                          footerNewsletterForm.innerHTML = originalContent
+                          const newInput = footerNewsletterForm.querySelector(".footer-email-input")
+                          if (newInput) newInput.value = ""
+                        }, 5000)
+                      }
+                    })
+                  }
+
+                  const statValues = document.querySelectorAll(".footer-stat-value")
+                  const observerOptions = {
+                    threshold: 0.5,
+                  }
+
+                  const statsObserver = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                      if (entry.isIntersecting) {
+                        entry.target.style.animation = "statPulse 2s ease-in-out infinite"
+                      }
+                    })
+                  }, observerOptions)
+
+                  statValues.forEach((stat) => statsObserver.observe(stat))
+
+                  const styleSheet = document.createElement("style")
+                  styleSheet.innerText = `
+                    @keyframes statPulse {
+                      0%, 100% { transform: scale(1); filter: brightness(1); }
+                      50% { transform: scale(1.05); filter: brightness(1.2); }
+                    }
+                  `
+                  document.head.appendChild(styleSheet)
+                })()
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

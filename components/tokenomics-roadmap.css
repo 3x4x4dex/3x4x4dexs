@@ -1,0 +1,31 @@
+.tokenomics-roadmap-container1 {
+  display: contents;
+}
+ 
+.tokenomics-roadmap-thq-legend-indicator-elm1 {
+  background: var(--color-accent);
+}
+ 
+.tokenomics-roadmap-thq-legend-indicator-elm2 {
+  background: var(--color-secondary);
+}
+ 
+.tokenomics-roadmap-thq-legend-indicator-elm3 {
+  background: var(--color-primary);
+}
+ 
+.tokenomics-roadmap-thq-legend-indicator-elm4 {
+  background: var(--color-outline);
+}
+ 
+.tokenomics-roadmap-thq-legend-indicator-elm5 {
+  background: var(--color-neutral);
+}
+ 
+.tokenomics-roadmap-container2 {
+  display: none;
+}
+ 
+.tokenomics-roadmap-container3 {
+  display: contents;
+}
